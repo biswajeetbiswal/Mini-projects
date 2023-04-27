@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 40px;
+  font-size: 4vmin;
+  background-color: rgb(5, 5, 114);
+  color: #fff;
+}
+.link {
+  display: inline-flex;
+}
+.link a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 3vmin;
+  color: #fff;
+}
+.link a:hover {
+  background-color: red;
+  border-radius: 10px;
+}
+.hero_section {
+  background-image: url(heroimage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.contain {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 38%;
+}
+p {
+  padding: 0 15px;
+}
+.contain h1 {
+  font-size: 10vmin;
+  padding-bottom: 10px;
+}
+.contain h3 {
+  font-size: 5vmin;
+  padding: 8px 0;
+}
+.music_section {
+  background-color: rgb(9, 9, 47);
+  padding: 50px 0;
+}
+button {
+  margin: 20px 0;
+  padding: 5px 10px;
+  font-size: 3vmin;
+  background-color: red;
+  color: #fff;
+}
+.mac-img {
+  margin-top: -400px;
+  position: relative;
+  top: 450px;
+  text-align: center;
+}
+.section3 .contain {
+  padding-top: 500px;
+  color: #000;
+}
+h3 {
+  margin: 10px 0;
+}
+.mac {
+  text-align: center;
+}
+.Videosection {
+  background-image: url(video.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.giftcard {
+  margin: 50px 0;
+  padding: 0 200px;
+  display: flex;
+  gap: 40px;
+}
+.text p {
+  padding: 20px 0;
+}
+
+.button1 {
+  margin: 20px 0;
+  padding: 5px 10px;
+  font-size: 3vmin;
+  background-color: rgb(106, 0, 255);
+  color: #fff;
+}
+.footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: rgb(5, 5, 107);
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .giftcard {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mac-img {
+    margin-top: -280px;
+    top: 320px;
+  }
+  .mac-img img {
+    width: 70%;
+  }
+  .mac img {
+    width: 80%;
+  }
+  .giftcard {
+    padding: 0 20px;
+  }
+  .section3 .contain {
+    padding-top: 300px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .giftcard {
+    margin: 20px 0;
+    padding: 0 50px;
+    display: block;
+  }
+  .gift img
+  {
+   padding-left: 40px;
+    width: 80%;
+  }
+  .giftcard .button1{
+    margin-left: 125px;
+  }
+  .footer {
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+  }
+  .footerline h4 {
+    padding-top: 10px;
+  }
+  .mac-img {
+    margin-top: -150px;
+    top: 180px;
+  }
+  .section3 .contain {
+    padding-top: 200px;
+  }
+  .link a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 3vmin;
+    color: #fff;
+  }
+}
