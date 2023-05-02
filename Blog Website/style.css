@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+nav ul {
+  display: inline-flex;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.section,
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.image img {
+  width: 100%;
+  height: 80vh;
+}
+.section h1 {
+  font-size: 8vmin;
+}
+.about-author {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+article {
+  padding: 30px 0;
+}
+article p {
+  padding: 20px 0;
+  text-align: justify;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.section1 .text {
+  margin-top: 100px;
+}
+.section1 .text h1 {
+  font-size: 10vmin;
+}
+.section1 .text h4 {
+  font-size: 4vmin;
+}
+.section1 .photo img {
+  border-radius: 50px;
+}
+.section2 {
+  display: flex;
+  margin-top: 40px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.text1 {
+  padding: 50px;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  border: 1px solid #e2e2e2;
+}
+
+.text1 p {
+  padding: 10px 0;
+}
+.card {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.card1 {
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  border: 1px solid #e2e2e2;
+}
+.card1 img {
+  width: 100%;
+}
+.card1 p {
+  padding: 10px 0;
+}
+.innercard {
+  padding: 30px;
+}
+.content {
+  margin-top: 180px;
+}
+@media screen and (max-width: 1024px) {
+  .section1 .photo img {
+    width: 400px;
+  }
+  .section1 .text {
+    margin-top: 13px;
+  }
+  .content {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section h1 {
+    font-size: 6vmin;
+  }
+  .image img {
+    width: 100%;
+    height: 60vh;
+  }
+  .section1 .photo img {
+    width: 400px;
+  }
+  .section1 .text {
+    margin-top: 50px;
+  }
+  .section1 .text h1 {
+    font-size: 6vmin;
+  }
+
+  .photo2 img {
+    width: 400px;
+    height: 80vh;
+  }
+  .content {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .section1 {
+    display: block;
+  }
+  .section1 .photo img {
+    width: 340px;
+  }
+  nav {
+    padding: 20px 20px;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  .section2 {
+    display: block;
+  }
+  .image img {
+    height: 40vh;
+  }
+  .card {
+    display: block;
+  }
+  .card1 {
+    width: 340px;
+    margin-top: 20px;
+  }
+  .photo2 img {
+    width: 340px;
+    height: 50vh;
+  }
+  .photo1 img {
+    width: 340px;
+  }
+}
